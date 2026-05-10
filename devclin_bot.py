@@ -9,8 +9,8 @@ from telegram.ext import (
 # ══════════════════════════════════════════════
 #   CONFIG — EDIT THESE
 # ══════════════════════════════════════════════
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"          # From @BotFather
-ADMIN_ID   = 123456789                      # Your Telegram user ID (get from @userinfobot)
+BOT_TOKEN = "8589728931:AAFTJDW94p_BOTr-q6AXua-hunOXmbXNSDQ"          # From @BotFather
+ADMIN_ID   = 6105493227                      # Your Telegram user ID (get from @userinfobot)
 
 BOT_NAME     = "Dev Clin"
 BOT_HANDLE   = "@DevClinBot"
@@ -24,9 +24,9 @@ WELCOME_MSG  = (
 )
 
 # Payment details
-BANK_NAME    = "GTBank"
-ACCOUNT_NUM  = "0123456789"
-ACCOUNT_NAME = "Skyline Technologies"
+BANK_NAME    = "MPESA"
+ACCOUNT_NUM  = "0743810633"
+ACCOUNT_NAME = "Clinton Oduor"
 
 # Me button — paste your portfolio link here
 ME_LINK      = "https://yourportfolio.com"
