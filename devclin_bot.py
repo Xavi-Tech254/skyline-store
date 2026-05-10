@@ -35,7 +35,7 @@ ME_BIO       = "Built by Dev Clin 🚀\nSkyline Technologies — Elevating Digit
 
 # Cyberpunk image — upload to telegram and paste file_id here, OR use a public URL
 # To get file_id: send the image to your bot, then check the update in logs
-CYBER_IMAGE  = "AgACAgQAAxkBAAIFDGoAAbbMxrkdsIdq4CIORB9dJ0MHFQAClxFrG8h7CVCW-TFio9CtMgEAAwIAA3kAAzsE"  # Replace with your image file_id or URL
+CYBER_IMAGE  = "https://i.postimg.cc/CLHFDLbK/Gemini-Generated-Image-avf6o5avf6o5avf6.png"  # Replace with your image file_id or URL
 
 # Contact
 ADMIN_TG     = "@yourusername"
