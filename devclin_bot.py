@@ -10,7 +10,7 @@ from telegram.ext import (
 #   CONFIG — EDIT THESE
 # ══════════════════════════════════════════════
 BOT_TOKEN = os.getenv("8589728931:AAFTJDW94p_BOTr-q6AXua-hunOXmbXNSDQ")          # Set in Railway Variables
-ADMIN_ID   = int(os.getenv("6105493227"))     # Set in Railway Variables
+ADMIN_ID = 6105493227     # Set in Railway Variables
 
 BOT_NAME     = "Dev Clin"
 BOT_HANDLE   = "@DevClinBot"
