@@ -9,8 +9,8 @@ from telegram.ext import (
 # ══════════════════════════════════════════════
 #   CONFIG — EDIT THESE
 # ══════════════════════════════════════════════
-BOT_TOKEN = "8589728931:AAFTJDW94p_BOTr-q6AXua-hunOXmbXNSDQ"          # From @BotFather
-ADMIN_ID   = 6105493227                      # Your Telegram user ID (get from @userinfobot)
+BOT_TOKEN = os.getenv("8589728931:AAFTJDW94p_BOTr-q6AXua-hunOXmbXNSDQ")
+ADMIN_ID   = int(os.getenv("6105493227"))                      # Your Telegram user ID (get from @userinfobot)
 
 BOT_NAME     = "Dev Clin"
 BOT_HANDLE   = "@DevClinBot"
