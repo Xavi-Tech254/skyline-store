@@ -171,7 +171,8 @@ async def send_cyber_footer(update_or_query, context: ContextTypes.DEFAULT_TYPE,
                 media=InputMediaPhoto(media=CYBER_IMAGE, caption=full_caption, parse_mode="Markdown"),
                 reply_markup=InlineKeyboardMarkup(keyboard)
             )
-    except Exception:
+    except Exception as e:
+        print(f"Image send failed: {e}")
         # Fallback: send as text if image fails
         msg = full_caption
         if hasattr(update_or_query, 'message') and update_or_query.message:
