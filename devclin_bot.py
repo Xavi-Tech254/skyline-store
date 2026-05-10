@@ -9,8 +9,8 @@ from telegram.ext import (
 # ══════════════════════════════════════════════
 #   CONFIG — EDIT THESE
 # ══════════════════════════════════════════════
-BOT_TOKEN = os.getenv("BOT_TOKEN")          # Set in Railway Variables
-ADMIN_ID   = int(os.getenv("ADMIN_ID"))     # Set in Railway Variables
+BOT_TOKEN = os.getenv("8589728931:AAFTJDW94p_BOTr-q6AXua-hunOXmbXNSDQ")          # Set in Railway Variables
+ADMIN_ID   = int(os.getenv("6105493227"))     # Set in Railway Variables
 
 BOT_NAME     = "Dev Clin"
 BOT_HANDLE   = "@DevClinBot"
@@ -35,7 +35,7 @@ ME_BIO       = "Built by Dev Clin 🚀\nSkyline Technologies — Elevating Digit
 
 # Cyberpunk image — upload to telegram and paste file_id here, OR use a public URL
 # To get file_id: send the image to your bot, then check the update in logs
-CYBER_IMAGE  = "https://i.imgur.com/placeholder.jpg"  # Replace with your image file_id or URL
+CYBER_IMAGE  = "AgACAgQAAxkBAAIFDGoAAbbMxrkdsIdq4CIORB9dJ0MHFQAClxFrG8h7CVCW-TFio9CtMgEAAwIAA3kAAzsE"  # Replace with your image file_id or URL
 
 # Contact
 ADMIN_TG     = "@yourusername"
